@@ -1,0 +1,18 @@
+
+{
+  "compilerOptions": {
+    "outDir": "./publish/js/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react"
+  },
+  "include": [
+     "src/ts/*"
+   ],
+   "exclude": [
+     "node_modules",
+     "**/*.spec.ts"
+   ]
+}
