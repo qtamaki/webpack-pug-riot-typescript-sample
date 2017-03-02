@@ -5,6 +5,12 @@ window.onload = function() {
 
   var Person = require("./Person.ts");
 
+  var Req = require("./req.ts");
+
+  var req = new Req.Req();
+
+  req.req();
+
   ((e) => {
     console.log(e);
   })("ES6");
